@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
+import { StyleSheet } from 'react-native'
+import { View } from 'react-native'
 import { Button, Text } from 'react-native-paper'
+import styles from '../styles/styles'
 
 const Estado = () => {
 
@@ -13,13 +16,16 @@ const Estado = () => {
     }
     return (
         <>
+            <View style={styles.linha}>
             <Button mode="contained" onPress={remover}>-</Button>
 
-            <Text>{qtd}</Text>
+            <Text style={styles.texto}>{qtd}</Text>
 
             <Button mode="contained" onPress={adicionar}>+</Button>
+            </View>
         </>
     )
 }
 
 export default Estado
+
