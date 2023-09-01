@@ -33,3 +33,4 @@ const Pag1 = ({ navigation }) => {
 }
 
 export default Pag1
+
