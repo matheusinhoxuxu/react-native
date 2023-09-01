@@ -34,4 +34,4 @@ const Objeto = () => {
     )
 }
 
-export default Objeto
+export default Objeto 
