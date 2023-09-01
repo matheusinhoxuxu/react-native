@@ -27,5 +27,4 @@ const Estado = () => {
     )
 }
 
-export default Estado
-
+export default Estado 
